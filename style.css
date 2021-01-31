@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+}
+.column-left{
+    float: left;
+    width: 40%;
+    padding: 90px 5px 25px 25px
+}
+.column-left{
+    background:blue;
+    float:left;
+    width: 800px;
+    height: 600px;
+
+}
+.center{
+    margin: auto;
+    width:50%;
+    padding: 90px 25px 25px 100px;
+}
+.right-column{
+    float: left;
+    width: 60%;
+    padding:50px;
+}
+.login{
+    float: left;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding-right: 200px;
+
+}
+*{
+    box-sizing: unset;
+}
+label{
+    font-size: 15px
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: blue;
+}
